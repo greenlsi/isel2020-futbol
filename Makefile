@@ -1,4 +1,9 @@
 CC= gcc
-CFLAGS= -Wall -Werror -ansi -g -O
+CFLAGS= -Wall -Werror -g -O -ansi
+LDFLAGS=
+LDLIBS=
 
-main: main.o player.o fsm.o timespec_utils.o
+main: main.o fsm.o player.o timespec_utils.o
+
+clean:
+	rm -f main *.o
