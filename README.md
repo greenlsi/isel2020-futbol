@@ -30,6 +30,6 @@ Requisitos:
 
     j - left 
 
-    l - right 
+    l - righ
 
-
+Proyecto en eclipse
